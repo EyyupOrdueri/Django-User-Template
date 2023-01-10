@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     # 'debug_toolbar',  dev.py içine ekledik.
-
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+    "users",
 ]
 
 MIDDLEWARE = [
@@ -195,5 +197,10 @@ LOGGING = {
     },
 }
 # handlers iki farklı handler işlemi yapan loji kuran 
-# console ve file için i,ki farklı handler kullanılmış
-# consolda stream handler 
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ]
+}
