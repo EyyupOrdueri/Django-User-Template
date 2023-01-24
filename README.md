@@ -1,7 +1,7 @@
 # Django-User-Template
 
 # 1- You should clone the repo. 
-git clone (repo-link)
+git clone (repo-link)[https://github.com/EyyupOrdueri/Django-User-Template.git]
 
 # 2- After cloning create an environment file.
 python -m venv env
