@@ -13,8 +13,8 @@ source env/Scripts/activate  ##for windows
 pip install -r requirements.txt
 
 # 5- Create an .env file and write three lines code above
-SECRET_KEY = fd&wr16c@_1@2efq40r!v=*09)twbgy9re2rx(veq3e(w!eovo (you can generate different key via [this-tool](https://djecrety.ir/))
-
+SECRET_KEY = fd&wr16c@_1@2efq40r!v=*09)twbgy9re2rx(veq3e(w!eovo  *****(you can generate different key via [this-tool](https://djecrety.ir/))*****
+ 
 DEBUG=True
 
 ENV_NAME=dev
